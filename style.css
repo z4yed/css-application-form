@@ -1,0 +1,118 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#navbar {
+    text-align: center;
+}
+
+#note {
+    font-weight: 400;
+    width: 40%;
+    margin: auto; 
+}
+
+.short-questions {
+    width: 60%;
+    margin: auto;
+}
+
+.short-questions label, input {
+    margin: 10px 0px;
+    display: block;
+}
+
+.short-questions input{
+    width: 60%;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+
+#gender-radio input{
+    height: 15px;
+    width: 40px;
+}
+
+#gender-radio label, input{
+    display: inline;
+
+}
+
+
+#survey-form {
+    margin: auto;
+    width: 50%;
+}
+
+#multiple-choise {
+    width: 60%; 
+    margin: auto; 
+    /* width & margin property moves the div to center */
+
+    margin-top: 20px;
+}
+
+#files {
+    width: 60%;
+    margin: auto;
+
+    margin-top: 20px;
+}
+
+#multiple-choise input{
+    width: 25px;
+    height: 13px;
+}
+
+#multiple-choise label {
+    font-size: 1.25em;
+}
+
+
+.checkbox:hover{
+    background: red;
+    width: 50%;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    border-bottom: 2px solid greenyellow;
+}
+
+textarea:hover{
+    border: 2px solid rgba(0, 255, 0, 0.856);
+}
+
+
+#files label, input {
+    border: none;
+    display: inline-block;
+}
+
+#files input {
+    background: rgba(43, 203, 224, 0.651);
+    height: 20px;
+}   
+
+.submit-area {
+    width: 20%;
+    margin: auto;
+}
+
+#submit-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+footer small{
+    float: right;
+}
